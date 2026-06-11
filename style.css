@@ -1,0 +1,148 @@
+:root {
+  --purple500: #28115f;
+  --purple300: #270082;
+  --purple600: #160058;
+  --red600: #dd0000;
+}
+
+.music-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: var(--purple300);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+button{
+  padding: 10px 15px;
+  border:none;
+  border-color:var(--red600);
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  color: white;
+  cursor: pointer;
+}
+
+.hero-section {
+  background-image: url('./img6.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero-content h1{
+  font-size: 79px;
+}
+.music-section {
+  padding: 30px 20px;
+  background-color: var(--purple500);
+  color: white;
+}
+
+.music-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.music-section h4 {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.music-section p {
+  color: white;
+}
+.music-section{
+  padding: 50px;
+  background-color: var(--purple500);
+}
+.music-section.container{
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+  justify-content:center;
+  color:white;
+  align-items:center;
+}
+.image-section {
+  margin-top: 2rem;
+}
+
+.image-section img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+.music-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.ending-text {
+    font-size: 14px;
+    text-align: right;
+    color: #444;
+    margin: 20px;
+    max-width: 400px;
+    float: right;
+  }
